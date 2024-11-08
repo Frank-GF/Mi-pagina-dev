@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="Images/BANNER.jpg" alt="Logo de la empresa" class="logo-img">
+            <a href="#">MiTiendaOnline</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                              
+               <!-- Menú "Prodcutos" con submenú -->
+               <li class="dropdown">
+                <a href="#" class="dropbtn">Productos</a>
+                <div class="dropdown-content">
+                    <a href="Producto1.html">Producto1</a>
+                    <a href="Producto2.html">Producto2</a>
+                    <a href="Producto3.html">Producto3</a>
+                    <a href="Producto4.html">Producto4</a>
+                    <a href="Producto5.html">Producto5</a>
+                    <a href="Producto6.html">Producto6</a>
+                    <a href="Producto7.html">Producto7</a>
+                    <a href="Producto8.html">Producto8</a>
+                    <a href="Producto9.html">Producto9</a>
+                    <a href="Producto10.html">Producto10</a>
+                    <a href="Producto11.html">Producto11</a>
+                </div>
+            </li>
+               
+                <!-- Menú "Nosotros" con submenú -->
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Nosotros</a>
+                    <div class="dropdown-content">
+                        <a href="mision.html">Misión</a>
+                        <a href="vision.html">Visión</a>
+                    </div>
+                </li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#">🛒 Carrito</a>
+        </div>
+    </header>
+
+    <!-- Carrusel de Imágenes -->
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="BANNER.jpg" alt="BANNER">
+                <img src="banner2.jpg" alt="Imagen 2">
+                <img src="banner3.jpg" alt="Imagen 3">
+                <img src="banner4.jpg" alt="Imagen 4">
+            </div>
+        </div>
+        <!-- Puntos de navegación -->
+        <div class="carousel-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+  <!-- Sección de Galería de Fotos -->
+<section class="gallery">
+    <h2>Galería de Fotos Populares</h2>
+    <div class="gallery-container">
+        <!-- Flecha Izquierda -->
+        <button class="arrow left-arrow">&#10094;</button>
+        
+        <!-- Contenedor de Imágenes -->
+        <div class="gallery-images">
+            <div class="gallery-item">
+                <a href="galeria.html"><img src="popular1.jpg" alt="Imagen Popular 1"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="galeria.html"><img src="popular2.jpg" alt="Imagen Popular 2"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="galeria.html"><img src="popular3.jpg" alt="Imagen Popular 3"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="galeria.html"><img src="popular4.jpg" alt="Imagen Popular 4"></a>
+            </div>
+        </div>
+
+        <!-- Flecha Derecha -->
+        <button class="arrow right-arrow">&#10095;</button>
+    </div>
+</section>
+
+
+        <!-- Flecha Derecha -->
+        <button class="arrow right-arrow">&#10095;</button>
+    </div>
+</section>
+
+
+
+
+
+<!-- Sección de Productos Destacados -->
+<section class="featured-products">
+    <h2>Productos Destacados</h2>
+    
+    <div class="product-grid">
+        <!-- Producto 1 -->
+        <div class="product-item">
+            <img src="images/product1.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$30.00</p>
+            <button class="btn add-to-cart">Agregar al carrito</button>
+        </div>
+        
+        <!-- Producto 2 -->
+        <div class="product-item">
+            <img src="images/product2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>$25.00</p>
+            <button class="btn add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product-item">
+            <img src="images/product3.jpg" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>$50.00</p>
+            <button class="btn add-to-cart">Agregar al carrito</button>
+        </div>
+        
+        <!-- Producto 4 -->
+        <div class="product-item">
+            <img src="images/product4.jpg" alt="Producto 4">
+            <h3>Producto 4</h3>
+            <p>$40.00</p>
+            <button class="btn add-to-cart">Agregar al carrito</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Sección de Suscripción -->
+<section class="subscribe">
+    <div class="subscribe-content">
+        <h2>¡Suscríbete a nuestra newsletter!</h2>
+        <p>Recibe ofertas exclusivas, novedades y actualizaciones de nuestros productos directamente en tu correo.</p>
+        <form action="#" method="POST" class="subscribe-form">
+            <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico" required>
+            <button type="submit">Suscribirme</button>
+        </form>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Mi Tienda Online - Todos los derechos reservados</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  
+</body>
+
+</body>
+</html>
